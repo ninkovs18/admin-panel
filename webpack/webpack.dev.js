@@ -1,4 +1,4 @@
-import ReactRefreshPlugin from "@pmmmwh/react-refresh-webpack-plugin";
+const ReactRefreshPlugin = require("@pmmmwh/react-refresh-webpack-plugin");
 
 module.exports = {
   mode: "development",
