@@ -1,5 +1,5 @@
-import Counter from "./Counter";
-import "./styles.css";
+import Counter from './Counter'
+import './styles.css'
 const App = () => {
   return (
     <div>
@@ -7,7 +7,7 @@ const App = () => {
       <p>ENVIROMENT: {process.env.NODE_ENV}</p>
       <Counter />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App
